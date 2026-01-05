@@ -1,4 +1,4 @@
-# DevOps Platform Capstone Project
+# Onlinebookstore_devops_Project
 
 ## Project Overview
 This project implements an end-to-end CI/CD platform using industry-standard DevOps tools.
