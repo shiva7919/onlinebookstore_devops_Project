@@ -2,7 +2,7 @@
 - name: Pull latest Docker image
   docker_container:
     name: onlinebookstore
-    image: kishangollamudi/onlinebookstore:latest
+    image: shivasarla2398/onlinebookstore:latest
     state: started
     restart_policy: always
     ports:
