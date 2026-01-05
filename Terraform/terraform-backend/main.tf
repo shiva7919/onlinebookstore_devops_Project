@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tf_state" {
-  bucket = "kishan-devops-terraform-state"
+  bucket = "shiva-devops-terraform-state"
 
   versioning {
     enabled = true
