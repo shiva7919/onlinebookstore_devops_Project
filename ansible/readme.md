@@ -54,7 +54,7 @@ ansible/
 This project uses the **AWS EC2 Dynamic Inventory plugin** to discover instances automatically.
 
 📍 **AWS Region:** `us-east-1`
-📍 **Project Tag:** `Devops-Capestone-project`
+📍 **Project Tag:** `Onlinebookstore_devops_Project`
 
 ```yaml
 # ansible/inventory/aws_ec2.yml
@@ -64,7 +64,7 @@ regions:
   - us-east-1
 
 filters:
-  tag:Project: Devops-Capestone-project
+  tag:Project: Onlinebookstore_devops_Project
   instance-state-name: running
 
 hostnames:
@@ -112,7 +112,7 @@ Deploys the OnlineBookStore application container on the **Docker Host**, discov
     - name: Deploy application container
       docker_container:
         name: onlinebookstore
-        image: kishangollamudi/onlinebookstore:latest
+        image: shivasarla/onlinebookstore:latest
         state: started
         restart_policy: always
         ports:
