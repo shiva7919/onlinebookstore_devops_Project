@@ -1,6 +1,5 @@
 ---
-
-# 📚 Online Bookstore – DevOps CI/CD Project
+# 📚 Online Bookstore – DevOps CI/CD Project.
 
 ## 📌 Project Overview
 
